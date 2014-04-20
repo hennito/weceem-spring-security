@@ -1,7 +1,7 @@
 package org.weceem.auth
 
-import org.codehaus.groovy.grails.plugins.springsecurity.SpringSecurityUtils
-import org.codehaus.groovy.grails.plugins.springsecurity.GrailsUserDetailsService
+import grails.plugin.springsecurity.SpringSecurityUtils
+import grails.plugin.springsecurity.userdetails.GrailsUserDetailsService
 
 import org.springframework.security.core.authority.GrantedAuthorityImpl
 import org.springframework.security.core.userdetails.UserDetails
